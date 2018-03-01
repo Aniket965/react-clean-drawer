@@ -1,6 +1,6 @@
 {
   "name": "react-clean-drawer",
-  "version": "0.0.91",
+  "version": "0.0.92",
   "description": "react drawer component",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "case-sensitive-paths-webpack-plugin": "^2.1.1",
     "css-loader": "^0.28.9",
     "extract-text-webpack-plugin": "^3.0.2",
     "react": "^16.2.0",
