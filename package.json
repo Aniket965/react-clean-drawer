@@ -1,6 +1,6 @@
 {
   "name": "react-clean-drawer",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "react drawer component",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "license": "MIT",
   "peerDependencies": {
     "prop-types": "^15.5.2",
-    "react": "^0.14.7 || ^15.0.0"
+    "react": "^16.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",
