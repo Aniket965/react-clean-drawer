@@ -1,6 +1,6 @@
 {
   "name": "react-clean-drawer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "react drawer component",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,6 @@
   },
   "author": "Aniket965",
   "license": "MIT",
-  "dependencies": {
-    "react": "^15.5.4",
-    "webpack": "^2.6.1"
-  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
@@ -21,6 +17,8 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1",
-    "css-loader": "^0.28.10"
+    "css-loader": "^0.28.10",
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
   }
 }
