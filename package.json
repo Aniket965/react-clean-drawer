@@ -1,6 +1,6 @@
 {
   "name": "react-clean-drawer",
-  "version": "0.0.92",
+  "version": "0.0.93",
   "description": "react drawer component",
   "main": "index.js",
   "scripts": {
