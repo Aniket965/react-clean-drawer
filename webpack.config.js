@@ -12,7 +12,7 @@ const PATH = {
 };
 const css = 'css?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]';
 const sass = `${css}!sass`;
-const extractCSS = new ExtractTextPlugin({filename: 'react-clean-drawer.css', allChunks: true});
+const extractCSS = new ExtractTextPlugin({filename: 'react-clean-drawer-l.css', allChunks: true});
 const uglify = new webpack.optimize.UglifyJsPlugin({
   sourceMap: true,
   minimize: true,
@@ -24,7 +24,8 @@ const uglify = new webpack.optimize.UglifyJsPlugin({
 const CONFIG = {
   entry: path.join(PATH.src, 'index.js'),
   externals: {
-    'react': 'React'
+    'react': 'react',
+    'react-dom' : 'reactDOM'
   },
   devServer: {
     contentBase: PATH.root,
@@ -103,7 +104,6 @@ const umdMinified = Object.assign({}, umd, {
   plugins: [
     new CaseSensitivePathsPlugin(),
     extractCSS,
-    uglify
   ]
 });
 

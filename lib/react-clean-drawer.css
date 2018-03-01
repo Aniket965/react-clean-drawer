@@ -1,4 +1,4 @@
-.css-sourceMap-modules-importLoaders-1-localIdentName-index__rcd-drawer___lrbC9 {
+.rcd-drawer {
     height: 100vh;
     position: fixed;
     width: 25vw;
@@ -10,31 +10,31 @@
     bottom: 0;
 }
 
-.css-sourceMap-modules-importLoaders-1-localIdentName-index__rcd-drawer-open___2hIj2 {
+.rcd-drawer-open {
     transform: translateX(0vw);
-    animation: css-sourceMap-modules-importLoaders-1-localIdentName-index__slideout___1_9wS 300ms forwards;
+    animation: slideout 300ms forwards;
 }
 
-.css-sourceMap-modules-importLoaders-1-localIdentName-index__rcd-close___1h6Ji {
-    animation: css-sourceMap-modules-importLoaders-1-localIdentName-index__slidein___jD4CO 300ms forwards;
+.rcd-close {
+    animation: slidein 300ms forwards;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .css-sourceMap-modules-importLoaders-1-localIdentName-index__rcd-drawer___lrbC9 {
+    .rcd-drawer {
         width: 80vw;
         transform: translateX(-86vw);
         display: block;
-       
+
     }
-    .css-sourceMap-modules-importLoaders-1-localIdentName-index__rcd-close___1h6Ji {
-        animation: css-sourceMap-modules-importLoaders-1-localIdentName-index__slideinM___3t9lf 500ms forwards; 
+    .rcd-close {
+        animation: slideinM 500ms forwards;
     }
-    .css-sourceMap-modules-importLoaders-1-localIdentName-index__rcd-drawer-open___2hIj2 {
+    .rcd-drawer-open {
         transform: translateX(0vw);
-        animation: css-sourceMap-modules-importLoaders-1-localIdentName-index__slideoutM___3Nce5 500ms forwards;
+        animation: slideoutM 500ms forwards;
     }
-    @keyframes css-sourceMap-modules-importLoaders-1-localIdentName-index__slideoutM___3Nce5 {
+    @keyframes slideoutM {
         0% {
             transform: translateX(-86vw);
         }
@@ -42,7 +42,7 @@
             transform: translateX(0vw);
         }
     }
-    @keyframes css-sourceMap-modules-importLoaders-1-localIdentName-index__slideinM___3t9lf {
+    @keyframes slideinM {
         0% {
             transform: translateX(0);
         }
@@ -52,7 +52,7 @@
     }
 }
 
-@keyframes css-sourceMap-modules-importLoaders-1-localIdentName-index__slideout___1_9wS {
+@keyframes slideout {
     0% {
         transform: translateX(-27vw);
     }
@@ -61,7 +61,7 @@
     }
 }
 
-@keyframes css-sourceMap-modules-importLoaders-1-localIdentName-index__slidein___jD4CO {
+@keyframes slidein {
     0% {
         transform: translateX(0);
     }
