@@ -1,0 +1,71 @@
+.rcd-drawer {
+    height: 100vh;
+    position: fixed;
+    width: 25vw;
+    background: white;
+    z-index: 9999;
+    box-shadow: 1px 1px 20px -10px;
+    transform: translateX(-27vw);
+    top: 0;
+    bottom: 0;
+}
+
+.rcd-drawer-open {
+    transform: translateX(0vw);
+    animation: slideout 300ms forwards;
+}
+
+.rcd-close {
+    animation: slidein 300ms forwards;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .rcd-drawer {
+        width: 80vw;
+        transform: translateX(-86vw);
+        display: block;
+       
+    }
+    .rcd-close {
+        animation: slideinM 500ms forwards; 
+    }
+    .rcd-drawer-open {
+        transform: translateX(0vw);
+        animation: slideoutM 500ms forwards;
+    }
+    @keyframes slideoutM {
+        0% {
+            transform: translateX(-86vw);
+        }
+        100% {
+            transform: translateX(0vw);
+        }
+    }
+    @keyframes slideinM {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-86vw);
+        }
+    }
+}
+
+@keyframes slideout {
+    0% {
+        transform: translateX(-27vw);
+    }
+    100% {
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-27vw);
+    }
+}
